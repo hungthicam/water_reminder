@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="150dp"
+    android:viewportWidth="100"
+    android:viewportHeight="150">
+
+    <!-- Vẽ thân cốc với màu xanh -->
+    <path
+        android:fillColor="#2196F3"
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M 20,10 L 80,10 L 75,140 L 25,140 Z" />
+
+    <!-- Vẽ miệng cốc với màu xanh -->
+    <path
+        android:fillColor="#2196F3"
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M 20,10 C 15,8 85,8 80,10 C 85,12 15,12 20,10 Z" />
+
+
+
+</vector>

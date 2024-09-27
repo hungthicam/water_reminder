@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Vòng tròn nền -->
+    <item android:id="@android:id/background">
+        <shape android:shape="ring"
+            android:useLevel="false">
+            <size android:width="8dp" android:height="8dp"/>
+            <solid android:color="@color/aqua_light"/>
+        </shape>
+    </item>
+
+    <!-- Vòng tròn tiến độ -->
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="-90"
+            android:toDegrees="270">
+            <shape android:shape="ring"
+                android:useLevel="true">
+                <size android:width="8dp" android:height="8dp"/>
+                <solid android:color="@color/aqua"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

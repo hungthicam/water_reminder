@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Water Reminder</string>
+    <string name="home">Home</string>
+    <string name="calendar">Calendar</string>
+    <string name="setting">Settings</string>
+    <string name="history">History</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string-array name="time_options">
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+</resources>
